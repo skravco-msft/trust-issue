@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '6b3337e3-20ad-40b7-9a55-8b384c00bed7'
   imageRepository: 'randompasswdgen'
   containerRegistry: 'trustissue.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: './Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
